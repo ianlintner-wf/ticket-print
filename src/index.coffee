@@ -9,7 +9,7 @@ fs = require('fs')
 doc.pipe fs.createWriteStream('output.pdf')
 
 # Embed a font, set the font size, and render some text
-doc.font('../fonts/PalatinoBold.ttf')
+doc.font('./fonts/PalatinoBold.ttf')
 .fontSize(25)
 .text('Some text with an embedded font!', 100, 100)
 

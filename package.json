@@ -1,0 +1,21 @@
+{
+  "name": "ticket-print",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start" : "coffee src/index.coffee",
+    "build" : "coffee --compile --output dist ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "pdfkit": "^0.7.2",
+    "should": "^8.1.1"
+  },
+  "dependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
